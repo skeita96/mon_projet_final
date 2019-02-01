@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=devise-width initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<!--<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/js/bootstrap.min.js">-->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>mon projet individuel</title>
+</head>
+<body>
+	<header id="head">
+		<h1>Ivoire<span class="decor">-</span>Voyage</h1>
+		<nav class="navbar">
+			<ul>
+				<li><a href="#accueil"><span class="glyphicon glyphicon-home"> Accueil</span></a></li>
+				<li><a href="#pays"><span class="glyphicon glyphicon-globe"> Pays</span></a></li>
+				<li><a href="#destinations"><span class="glyphicon glyphicon-plane"> Destinations</span></a></li>
+				<li><a href="#apropos"><span class="glyphicon glyphicon-hand-right"> A propos de nous</span></a></li>
+				<li><a href="#contact"><span class="glyphicon glyphicon-phone-alt"> Contacts</span></a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="accueil">
+		<div class="container">
+			<h2>Voyager <strong>sans compter</strong> avec notre agence, partout <br>dans le monde<br>
+			Pour votre plaisir <a href="#" class="clik">Cliquez</a></h2>
+		</div>
+	</section>
+	<section id="destinations">
+		<h1>Les meilleures destinations pour votre anthousiasme</h1>
+        	<div class="container">
+        		<div id="monCarousel" class="carousel slide" data-ride="carousel">
+        			<ol class="carousel-indicators">
+        				<li data-target="monCarousel" data-slide-to="0" class="active"></li>
+        				<li data-target="monCarousel" data-slide-to="1" ></li>
+        				<li data-target="monCarousel" data-slide-to="2" ></li>
+        				<li data-target="monCarousel" data-slide-to="3" ></li>
+        			</ol>
+        			<div class="carousel-inner" role="listbox">
+        				<div class="item active">
+        					<img src="hotels/y22.jpg">
+        					<div class="carousel-caption">
+        						<h3>Passer le meilleur de vos vacances à Bangok</h3>
+        					</div>
+        				</div>
+        				<div class="item">
+        					<img src="hotels/y2.jpg">
+        					<div class="carousel-caption" class="thumbnails">
+        						<h3>Les meilleures suites dans les Caraibes</h3>
+        				</div>
+        				</div>
+        				<div class="item">
+        					<img src="hotels/y5.jpg" class="thumbnails">
+        					<div class="carousel-caption">
+        						<h3>Les meilleurs d'Afrique</h3>
+        					</div>
+        				</div>
+        				<div class="item">
+        					<img src="hotels/y3.jpg">
+        					<div class="carousel-caption" class="thumbnails">
+        						<h3>Les endroits, dont vous n'allez jamais oublier </h3>
+        					</div>
+        				</div>
+        				<div class="item">
+        					<img src="hotels/y4.jpg">
+        					<div class="carousel-caption" class="thumbnails">
+        						<h3>Ivoire voyage, vous ne saurez jamais deçu </h3>
+        					</div>
+        				</div>
+        				
+        			</div>
+        			<a href="#monCarousel" class="left carousel-control" role="button" data-slide="prev">
+        				<span class="glyphicon glyphicon-chevron-left"></span>
+        			</a>
+        			<a href="#monCarousel" class="right carousel-control" role="button" data-slide="next">
+        				<span class="glyphicon glyphicon-chevron-right"></span>
+        			</a>
+        			
+        		</div>
+        	</div>	
+        </section>
+        <section  id="apropos">
+        	<div class="container-fluid">
+                    <h1>À propos de notre agence</h1>
+                    <p>Ivoire-voyage est une agence citoyenne, prête vous accompagner durant vos differents
+                    	sejours, <a href="#" class="button">lire plus</a> 
+                    </p>
+                    <h2>rendez-vous sur nos differentes pages :</h2>
+                    <p><a href="http://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook" /></a><a href="http://www.twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter"/></a><a href="http://www.vimeo.com" target="_blank"><img src="images/vimeo.png" alt="Vimeo"/></a><a href="http://www.flickr.com" target="_blank"><img src="images/flickr.png" alt="Flickr"/></a><a href="http://www.rss.com" target="_blank"><img src="images/rss.png" alt="RSS" /></a></p>
+        		
+        	</div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h3>Contactez-nous</h3>
+                
+                <form>
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" placeholder="Votre nom">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Votre email">
+                    <input type="submit" value="VALIDER" class="button-3">
+                </form>
+            </div>
+        </section>
+           
+        <footer class="text-center">
+            <a href="#head">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+            <h1>Ivoire<span class="decor">-</span>Voyage</h1>
+            <div class="copyright">Copyright © 2019. Tous droits réservés - NaN.19.</div>
+        </footer>
+                
+</html>
